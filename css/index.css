@@ -200,6 +200,9 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+.home .intro img {
+  border-radius: 0.5rem;
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
