@@ -1,4 +1,10 @@
 // Mixins Here
+.flex-custom(@direction, @justify:unset) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+}
+
 .button(@background-color, @font-color) {
     background: @background-color;
     color: @font-color;
@@ -9,8 +15,7 @@
     font-size: 2rem;
 }
 
-.flex-custom(@direction, @justify:unset) {
-    display: flex;
-    flex-direction: @direction;
-    justify-content: @justify;
+.button-swap(@background-color, @font-color) {
+    background: @background-color;
+    color: @font-color;
 }
