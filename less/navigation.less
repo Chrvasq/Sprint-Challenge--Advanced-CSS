@@ -1,10 +1,9 @@
 // Navigation code here
 .top-header {
-    background: #f4f4f4;
+    background: @nav-bg;
 
     .nav {
-        display: flex;
-        flex-direction: column;
+        .flex-custom(column);
         text-align: center;
 
         header {
@@ -13,15 +12,14 @@
         }
 
         nav {
-            display: flex;
-            justify-content: center;
+            .flex-custom(row, center);
             padding: 1%;
 
             a {
                 width: 13%;
                 padding: 1%;
                 text-decoration: none;
-                color: @main-font-color;
+                color: @nav-font;
                 font-size: 1.6rem;
             }
         }

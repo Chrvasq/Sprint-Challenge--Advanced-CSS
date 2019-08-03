@@ -161,11 +161,12 @@ p {
   margin: 0 auto;
 }
 .top-header {
-  background: #f4f4f4;
+  background: #F6F6F6;
 }
 .top-header .nav {
   display: flex;
   flex-direction: column;
+  justify-content: unset;
   text-align: center;
 }
 .top-header .nav header {
@@ -174,6 +175,7 @@ p {
 }
 .top-header .nav nav {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   padding: 1%;
 }
@@ -181,7 +183,7 @@ p {
   width: 13%;
   padding: 1%;
   text-decoration: none;
-  color: #5E6164;
+  color: #454A59;
   font-size: 1.6rem;
 }
 footer {
@@ -238,6 +240,15 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background: #5E6164;
+  color: white;
+  width: 30%;
+  padding: 2%;
+  text-align: center;
+  border-radius: 0.5rem;
+  font-size: 2rem;
 }
 .home .walk .walk-img {
   width: 46%;
