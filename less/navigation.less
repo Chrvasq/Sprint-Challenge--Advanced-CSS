@@ -1,1 +1,30 @@
 // Navigation code here
+.top-header {
+    background: @nav-bg;
+
+    .nav {
+        .flex-custom(column);
+        text-align: center;
+
+        header {
+            font-size: 4.8rem;
+            padding: 1%;
+        }
+
+        nav {
+            .flex-custom(row, center);
+            padding: 1%;
+
+            a {
+                width: 13%;
+                padding: 1%;
+                text-decoration: none;
+                color: @nav-font;
+                font-size: 1.6rem;
+                @media @phone {
+                    width: 16%;
+                }
+            }
+        }
+    }
+}

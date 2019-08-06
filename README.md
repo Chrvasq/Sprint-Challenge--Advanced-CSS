@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+A. Adaptive websites are a lot less flexible than responsive websites. Adaptive websites use set layouts for multiple screen types whereas responsive websites are fluid and adjust to the screen size regardless of what the target device screen size is and uses media queries to do this.
 
 2. Describe what it means to be mobile first vs desktop first.
+A. Mobile first means your initial CSS is designed for the mobile version of the site and you use media queries to adjust based on min-width for desktop design. The opposite is true for desktop first, in which the overall CSS is designed for the desktop version of the site and you use media queries with max-width for mobile version of the site.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+A.This sets the root font size to 10 px (62.5% of 16 is 10), therefore it’s easier to use rem and set the size of font as well as spacing on a factor of 10.
 
 4. How would you describe preprocessing to someone new to CSS?
+A.Preprocessing allows you to write your CSS using a specific language such as LESS and then compiles into CSS syntax. There are many benefits of using this method such as requiring you to write less code to get the same result in CSS and reusability of different parts, which in turn contributes to the first point I made.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+A. I really enjoy the readability and ease of using nesting to setup your CSS. I think at first the concept that I struggled with at first was seeing the “point” of using LESS rather than using regular CSS. But this is quickly understood once you see the magic of LESS.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
